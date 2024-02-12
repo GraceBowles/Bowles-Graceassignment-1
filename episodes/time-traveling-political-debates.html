@@ -8,23 +8,25 @@
 </head>
 <body>
 
-  <!-- Include the tag for introductory content -->
-
-    <!-- Display Laugh Track News logo nested in an anchor tag to link to index.html -->
-    
+   <!-- Include the tag for introductory content -->
+<header role="banner">
+  <!-- Display Laugh Track News logo nested in an anchor tag to link to index.html -->
+    <a href="index.html"><img src="images/laugh-track-news-logo.svg" alt="Laugh track news logo"></a>
     <!-- Write the markup for a navigation and link items to appropriate pages -->
-
-        <!-- About the podcast can use # as a placeholder to keep the user on this page. -->
-        About the podcast
-
-        <!-- Link to external url: https://open.spotify.com/genre/podcasts-page  -->
-        Listen on Spotify
-
+       <nav role="navigation">
+        <ul>
+             <!-- About the podcast can use # as a placeholder to keep the user on this page. -->
+             <li> <a href="index.html">About the podcast</a></li>
+             <!-- Link to external url: https://open.spotify.com/genre/podcasts-page  -->
+              <li><a href="https://open.spotify.com/genre/podcasts-page" target="_blank">Listen on Spotify</a></li>
+         </ul>
+       </nav>  
+</header>
 
 
 
   <!-- Add an element that represents the main content of the page -->
-
+<main role="main">
     <!-- Include a tag for independent, self-contained content content ex. blog post -->
       <!-- Main heading for the post -->
       Time-Traveling Political Debates
@@ -43,9 +45,11 @@
 
 
 
-
+</main>
+<footer>
   <!-- Include the tag for footer content -->
-  &copy; Laugh Track News 2024
+  <p><small>&copy; Laugh Track News 2024</small></p>
+</footer>
 
 
 </body>
